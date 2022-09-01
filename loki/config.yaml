@@ -1,14 +1,14 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Grafana Loki
-version: "2.6.1-rc2"
+version: "2.6.1-rc3"
 slug: loki
 description: "Loki: like Prometheus, but for logs."
 url: "https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki"
 watchdog: http://[HOST]:3100/ready
 apparmor: false
 ports:
-  3100/tcp: 3100
-  9096/tcp: 9096
+  3100/tcp: null
+  9096/tcp: null
 ports_description:
   3100/tcp: Loki
   9096/tcp: gRPC
