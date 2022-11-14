@@ -2,8 +2,8 @@
 ARG BUILD_FROM=ghcr.io/home-assistant/aarch64-base:3.15
 
 # Loki
-FROM --platform=linux/amd64 grafana/loki:2.6.1 as loki-amd64
-FROM --platform=linux/arm64 grafana/loki:2.6.1 as loki-arm64
+FROM --platform=linux/amd64 grafana/loki:2.7.0 as loki-amd64
+FROM --platform=linux/arm64 grafana/loki:2.7.0 as loki-arm64
 
 FROM scratch as container
 
