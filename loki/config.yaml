@@ -1,6 +1,7 @@
+---
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Grafana Loki
-version: "2.6.1-rc3"
+version: dev
 slug: loki
 description: "Loki: like Prometheus, but for logs."
 url: "https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki"
