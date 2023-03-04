@@ -3,7 +3,7 @@ name: Grafana Loki
 version: dev
 slug: loki
 description: "Loki: like Prometheus, but for logs."
-url: "https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki"
+url: "https://github.com/mcinnes01/ha-addon-grafana-loki/blob/main/loki"
 watchdog: http://[HOST]:3100/ready
 apparmor: false
 ports:
@@ -19,4 +19,4 @@ init: false
 map:
   - share:rw
 homeassistant_api: true
-image: "ghcr.io/cedricziel/{arch}-ha-addon-grafana-loki"
+image: "ghcr.io/mcinnes01/{arch}-ha-addon-grafana-loki"

@@ -8,7 +8,7 @@ It exposes itself on port `3100`.
 
 To add it as a datasource to Grafana, choose `Loki` as type and use `http://390c6529-loki:3100` as URL.
 
-Example to use it with the [OpenTelemetry collector add-on](https://github.com/cedricziel/ha-addon-opentelemetry/tree/main/otelcol), shipping a local log file:
+Example to use it with the [OpenTelemetry collector add-on](https://github.com/mcinnes01/ha-addon-opentelemetry/tree/main/otelcol), shipping a local log file:
 
 HomeAssistant OpenTelemetry collector:
 
