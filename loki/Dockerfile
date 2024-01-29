@@ -2,9 +2,9 @@ ARG BUILD_FROM=ghcr.io/home-assistant/amd64-base:3.15
 
 # Loki
 # hadolint ignore=DL3029
-FROM --platform=linux/amd64 grafana/loki:2.7.5 as loki-amd64
+FROM --platform=linux/amd64 grafana/loki:2.9.4 as loki-amd64
 # hadolint ignore=DL3029
-FROM --platform=linux/arm64 grafana/loki:2.7.5 as loki-arm64
+FROM --platform=linux/arm64 grafana/loki:2.9.4 as loki-arm64
 
 FROM scratch as container
 
