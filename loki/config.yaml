@@ -4,7 +4,6 @@ version: dev
 slug: loki
 description: "Loki: like Prometheus, but for logs."
 url: "https://github.com/cedricziel/ha-addon-grafana-mimir/blob/main/loki"
-watchdog: http://[HOST]:3100/ready
 apparmor: false
 ports:
   3100/tcp: null
